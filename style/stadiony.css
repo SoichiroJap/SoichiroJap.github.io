@@ -1,0 +1,19 @@
+#men {
+    top: -3.2%;
+}
+#akapity {
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: arial;
+}
+#stadiony img {
+    width: 24%;
+}
+#stadiony img:hover {
+    width: 26%;
+}
+body {
+    color: rgb(85, 0, 101);
+}
