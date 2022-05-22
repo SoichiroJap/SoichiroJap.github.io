@@ -1,0 +1,22 @@
+body {
+    background-image: url('../grafika/start.png');
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(244, 40, 40);
+    width: max-content;
+    padding: 1% 2%;
+    border-radius: 50px;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+
+a:hover {
+    background-image: url('../grafika/katar.png');
+    background-size: 100%;
+}

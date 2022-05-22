@@ -1,0 +1,58 @@
+body {
+    color: rgb(85, 0, 101);
+}
+#powrot {
+    position: absolute;
+    text-decoration: none;
+    top: 17%;
+    padding: 0.5%;
+    left: 0;
+    color: rgb(85, 0, 101);
+}
+#powrot:hover {
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+header h2 {
+    position: absolute;
+    top: 15%;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    left: 44%;
+}
+
+#terminarz {
+    font-weight: bolder;
+    margin-top: 15%;
+    font-size: larger;
+}
+#grup {
+    display: flex;
+}
+#tabela {
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 16.5%;
+    margin-left: 5%;
+}
+table {
+    text-align: center;
+    border-spacing: 0;
+    width: 200%;
+}
+td {
+    border: 1px solid black;
+    padding: 2%;
+}
+#spis {
+    background-color: rgb(245, 245, 223);
+}
+#ziel {
+    background-color: rgb(140, 232, 140);
+}
+#czer {
+    background-color: rgb(245, 130, 130);
+}
+

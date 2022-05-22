@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Katar 2022</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/grupy.css">
+
+</head>
+
+<body>
+    <main>
+        <div id="baner"><img src="../grafika/baner.png" width="100%">
+            <div id="timer">
+                <h1>Rozpoczęcie mundialu:</h1>
+                <div id="odliczanie">
+                    <div class="dni">
+                        <h2 id="dni"></h2>
+                    </div>
+                    <div class="godziny">
+                        <h2 id="godziny"></h2>
+                    </div>
+                    <div class="minuty">
+                        <h2 id="minuty"></h2>
+                    </div>
+                    <div class="sekundy">
+                        <h2 id="sekundy"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <nav id="nav">
+                <div id="men">
+                    <ol>
+                        <li><a href="glowna.html">Główna</a></li>
+                        <li><a href="gospodarz.html">Gospodarz</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="reprezentacje.html">Reprezentacje</a></li>
+                        <li><a href="grupy.html">Grupy</a></li>
+                        <li><a href="stadiony.html">Stadiony</a></li>
+                        <li><a href="zwyciezcy.html">Zwycięzcy</a></li>
+                        <li><a href="zabawa.html">Zabawa</a></li>
+                    </ol>
+                </div>
+            </nav>
+
+        </header>
+        <section id="akapity">
+            <p>
+                Odbyło się losowanie Mistrzostw Świata FIFA 2022 i możemy przedstawić szczegóły ośmiu grup, które
+                zostały wybrane w Doha w Katarze.
+                Gospodarze Katar rozstawieni są z Ekwadorem, Holandią i Senegalem w grupie A, natomiast Anglia w grupie
+                B z USA, Iranem oraz zwycięzcą meczu play-off Ukraina/Szkocja i Walia.
+                Obecni mistrzowie świata reprezentacja Francji, rozpocznie obronę swojej korony w grupie D wraz z Danią,
+                Tunezją oraz zwycięzcą kwalifikacyjnego meczu Australii/ZEA i Peru.
+                Faworyci tegorocznych zawodów, Brazylia, są w grupie G obok Serbii, Szwajcarii i Kamerunu.
+                Reprezentanci Polski znaleźli się w grupię C, u boku Argentyny, Meksyku oraz Arabii Saudyjskiej.
+            </p>
+            <p>
+                Oto jak dokładnie prezentują się grupy tegorocznych Mistrzosw Świata:
+            </p>
+            <div id="grupy">
+                <a href="../grupy/grupa_a.html"><img src="../grafika/grupa_a.png" alt="grupa a" id="grupa_a"
+                        onmouseover="grupa_a();" onmouseout="grupa_a2();"></a>
+                <a href="../grupy/grupa_b.html"><img src="../grafika/grupa_b.png" alt="grupa b" id="grupa_b"
+                        onmouseover="grupa_b();" onmouseout="grupa_b2();"></a>
+                <a href="../grupy/grupa_c.html"><img src="../grafika/grupa_c.png" alt="grupa c" id="grupa_c"
+                        onmouseover="grupa_c();" onmouseout="grupa_c2();"></a>
+                <a href="../grupy/grupa_d.html"><img src="../grafika/grupa_d.png" alt="grupa d" id="grupa_d"
+                        onmouseover="grupa_d();" onmouseout="grupa_d2();"></a>
+                <a href="../grupy/grupa_e.html"><img src="../grafika/grupa_e.png" alt="grupa e" id="grupa_e"
+                        onmouseover="grupa_e();" onmouseout="grupa_e2();"></a>
+                <a href="../grupy/grupa_f.html"><img src="../grafika/grupa_f.png" alt="grupa f" id="grupa_f"
+                        onmouseover="grupa_f();" onmouseout="grupa_f2();"></a>
+                <a href="../grupy/grupa_g.html"><img src="../grafika/grupa_g.png" alt="grupa g" id="grupa_g"
+                        onmouseover="grupa_g();" onmouseout="grupa_g2();"></a>
+                <a href="../grupy/grupa_h.html"><img src="../grafika/grupa_h.png" alt="grupa h" id="grupa_h"
+                        onmouseover="grupa_h();" onmouseout="grupa_h2();"></a>
+            </div>
+        </section>
+        <footer>
+            <h2>Soichiro</h2>
+        </footer>
+    </main>
+    <script src="../skrypty/timer.js"></script>
+    <script src="../skrypty/grupy.js"></script>
+</body>
+
+</html>

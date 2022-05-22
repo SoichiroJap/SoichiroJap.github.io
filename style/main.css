@@ -1,0 +1,88 @@
+#baner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+footer {
+    background-color: rgb(85, 0, 101);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+}
+
+footer h2 {
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 0.75rem 2rem;
+}
+
+header li {
+    list-style: none;
+    margin-bottom: 10%;
+    margin-left: -15%;
+}
+
+header a:hover {
+    background-color: rgb(195, 83, 83, 0.5);
+    box-shadow: 15px 15px 20px rgb(244, 86, 86);
+    border-radius: 10px;
+}
+
+#nav {
+    width: 6.9%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    height: 100%;
+}
+
+ol {
+    margin-top: 10%;
+}
+
+#men {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 344%;
+    background-image: url('../grafika/puchar.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: translateX(-92%);
+    transition: 1s transform ease-in-out;
+}
+
+#men:hover {
+    transform: translateX(0);
+}
+#odliczanie {
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    color: white;
+}
+#timer {
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+h1 {
+    color: white;
+}

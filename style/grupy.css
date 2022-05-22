@@ -1,0 +1,19 @@
+#men {
+    top: -3.2%;
+}
+#akapity {
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: arial;
+}
+#grupy img {
+    width: 22%;
+}
+#grupy img:hover {
+    width: 25%;
+}
+body {
+    color: rgb(85, 0, 101);
+}
