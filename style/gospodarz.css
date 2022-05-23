@@ -1,0 +1,54 @@
+body {
+    color: rgb(85, 0, 101);
+}
+
+#akapity {
+    font-weight: bolder;
+    margin-top: 5%;
+    font-size: larger;
+    margin-right: 1%;
+}
+#bloki {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+#mapa {
+    margin-top: 1%;
+    margin-right: 10%;
+}
+#blok {
+    font-weight: bolder;
+    margin-top: 13%;
+    font-size: larger;
+    margin-left: 2%;
+}
+#blok2 {
+    font-weight: bolder;
+    margin-top: 5%;
+    font-size: larger;
+    margin-left: 2%;
+}
+#blok3 {
+    font-weight: bolder;
+    margin-top: 3%;
+    font-size: larger;
+    margin-left: 2%;
+}
+#mapa img {
+    width: 150%;
+}
+#men {
+    top: 15.7%;
+}
+#kraj {
+    display: flex;
+}
+#flaga {
+    margin-top: 10%;
+    margin-right: 15%;
+}
+#flaga img {
+    width: 150%;
+}
