@@ -1,0 +1,76 @@
+body {
+    color: rgb(85, 0, 101);
+}
+
+#blok_l {
+    font-weight: bolder;
+    margin-top: 5%;
+    font-size: larger;
+    margin-right: 1%;
+}
+#lewa {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+#mundial_l {
+    margin-top: 6%;
+    margin-right: 20%;
+}
+#blok_p {
+    font-weight: bolder;
+    margin-top: 13%;
+    font-size: larger;
+    margin-left: 2%;
+}
+#mundial_l img {
+    width: 250%;
+}
+#men {
+    top: 15.7%;
+}
+#prawa {
+    display: flex;
+}
+#mundial_p {
+    margin-top: 12%;
+    margin-right: 20%;
+}
+#mundial_p img {
+    width: 250%;
+    margin-left: 10%;
+}
+#prawa2 {
+    display: flex;
+}
+#blok_p2 {
+    font-weight: bolder;
+    margin-top: 2%;
+    font-size: larger;
+    margin-left: 2%;
+}
+#mundial_p2 {
+    margin-right: 20%;
+}
+#mundial_p2 img {
+    width: 250%;
+    margin-left: 10%;
+}
+#prawa22 {
+    display: flex;
+    margin-bottom: 5%;
+}
+#blok_p22 {
+    font-weight: bolder;
+    margin-top: 2%;
+    font-size: larger;
+    margin-left: 2%;
+}
+#mundial_p22 {
+    margin-right: 20%;
+}
+#mundial_p22 img {
+    width: 250%;
+    margin-left: 10%;
+}
