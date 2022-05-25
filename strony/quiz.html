@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Katar 2022</title>
     <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/quiz.css">
 </head>
 
 <body>
@@ -43,14 +44,114 @@
                     </ol>
                 </div>
             </nav>
-            
+
         </header>
-        
+        <form onsubmit="wynik(); return false;">
+            <div id="p1">
+                <div>
+                    <label>1. Kto był zwycięzcę pierwszego mundialu</label><br><br>
+                    <input type="radio" name="q1"><label>Brazylia</label><br>
+                    <input type="radio" name="q1" id="c1"><label>Urugwaj</label><br>
+                    <input type="radio" name="q1"><label>Niemcy</label><br>
+                    <input type="radio" name="q1"><label>Hiszpania</label><br>
+                </div>
+                <img src="../grafika/p1.jpg" alt="P1">
+            </div>
+            <div id="p2">
+                <div>
+                <label>2. Jak nazywa się oficjalna maskotka Mundialu 2022</label><br><br>
+                <input type="radio" name="q2" id="c2"><label>La'eeb</label><br>
+                <input type="radio" name="q2"><label>Labe</label><br>
+                <input type="radio" name="q2"><label>Li'bee</label><br>
+                <input type="radio" name="q2"><label>Laleb</label>
+            </div>
+                <img src="../grafika/p2.png" alt="P2">
+            </div>
+            <div id="p3">
+                <div>
+                <label>3. Jakie jest największe osiągniecie Polski na Mistrzostwach Świata</label><br><br>
+                <input type="radio" name="q3"><label>1 miejsce</label><br>
+                <input type="radio" name="q3"><label>2 miejsce</label><br>
+                <input type="radio" name="q3" id="c3"><label>3 miejsce</label><br>
+                <input type="radio" name="q3"><label>4 miejsce</label>
+            </div>
+            <img src="../grafika/p3.jpg" alt="P3">
+            </div>
+            <div id="p4">
+                <div>
+                <label>4. Czy mundial w Katarze to pierwszy mundial na ktęrym w gronie sędziowskim znajduję się
+                    kobiety</label><br><br>
+                <input type="radio" name="q4" id="c4"><label>Tak</label><br>
+                <input type="radio" name="q4"><label>Nie</label>
+            </div>
+            <img src="../grafika/p4.jpg" alt="P4">
+            </div>
+            <div id="p5">
+                <div>
+                <label>5. Prawda/Fałsz wśród tegorocznych uczestników mundialu znajduje się reprezentacja
+                    Egiptu</label><br><br>
+                <input type="radio" name="q5"><label>Prawda</label><br>
+                <input type="radio" name="q5" id="c5"><label>Fałsz</label>
+            </div>
+            <img src="../grafika/p5.jpg" alt="P5">
+            </div>
+            <div id="p6">
+                <div>
+                <label>6. Na którym stadionie zostanie rozegrany final tegorocznych Mistrzostw Świata</label><br><br>
+                <input type="radio" name="q6"><label>Al Janoub Stadium</label><br>
+                <input type="radio" name="q6"><label>Al Thumama Stadium</label><br>
+                <input type="radio" name="q6"><label>Al Bayt Stadium</label><br>
+                <input type="radio" name="q6" id="c6"><label>Lusail Stadium</label>
+            </div>
+            <img src="../grafika/p6.jpeg" alt="P6">
+            </div>
+            <div id="p7">
+                <div>
+                <label>7. Która firma zaprojektowała tegoroczną oficjalną pilkę mundialu</label><br><br>
+                <input type="radio" name="q7"><label>Puma</label><br>
+                <input type="radio" name="q7"><label>Nike</label><br>
+                <input type="radio" name="q7" id="c7"><label>Adidas</label><br>
+                <input type="radio" name="q7"><label>New Balance</label>
+            </div>
+            <img src="../grafika/p7.jpg" alt="P7">
+            </div>
+            <div id="p8">
+                <div>
+                <label>8. Która reprezentacja narodowa znajduje się na zdjęciu</label><br><br>
+                <input type="radio" name="q8" id="c8"><label>Dania</label><br>
+                <input type="radio" name="q8"><label>Portugalia</label><br>
+                <input type="radio" name="q8"><label>Niemcy</label><br>
+                <input type="radio" name="q8"><label>Hiszpania</label>
+            </div>
+            <img src="../grafika/p8.jpg" alt="P8">
+            </div>
+            <div id="p9">
+                <div>
+                <label>9. Które z tych państw nie kandydowało do roli organizatora tegorocznych Mitrzostw
+                    Świata</label><br><br>
+                <input type="radio" name="q9"><label>Austalia</label><br>
+                <input type="radio" name="q9"><label>Japonia</label><br>
+                <input type="radio" name="q9" id="c9"><label>Chiny</label><br>
+                <input type="radio" name="q9"><label>Stany Zjednoczone</label>
+            </div>
+            <img src="../grafika/p9.jpg" alt="P9">
+            </div>
+            <div id="p10">
+                <div>
+                <label>10. Prawda/Fałsz reprezentacja Polski była losowana z 2 koszyka</label><br><br>
+                <input type="radio" name="q10"><label>Prawda</label><br>
+                <input type="radio" name="q10" id="c10"><label>Fałsz</label>
+            </div>
+            <img src="../grafika/p10.jpg" alt="P10">
+            </div>
+            <input type="submit" name="submit" value="Zakończ quiz" id="submit">
+        </form>
         <footer>
             <h2>Soichiro</h2>
         </footer>
     </main>
     <script src="../skrypty/timer.js"></script>
+    <script src="../skrypty/wynik.js"></script>
 </body>
 
 </html>
