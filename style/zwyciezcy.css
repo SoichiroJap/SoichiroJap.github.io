@@ -33,7 +33,7 @@ th {
 #fourth {
     background-color: wheat;
 }
-#king {
+#krol {
     background-color: beige;
 }
 #akapit {
@@ -43,4 +43,7 @@ th {
     margin-right: 3%;
     font-weight: bolder;
     font-size: larger;
+}
+#polska {
+    background-color: yellow;
 }
